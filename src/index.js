@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { onSnapshot, getSnapshot } from 'mobx-state-tree';
 import App from './components/App';
 import { WishList } from './models/WishList';
+import { Group } from './models/Group';
 
 let initialState = {
     items: [

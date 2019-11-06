@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can add a new items - 2 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "image": "https://lh3.googleusercontent.com/TFuORPSuxYy8PQKFV2UBNHDr-aKclxqWIlLgx3F7ORId4KU6u_CTBpcY-hZ5e_B2NiPHv3MJ7PtLK6FdARZwu1oPuYHx9gqLrDu5rt4",
+      "name": "Toy-100",
+      "price": 30.53,
+    },
+  ],
+}
+`;
+
+exports[`can add a new items - 2 2`] = `
+Array [
+  Object {
+    "op": "add",
+    "path": "/items/0",
+    "value": Object {
+      "image": "https://lh3.googleusercontent.com/TFuORPSuxYy8PQKFV2UBNHDr-aKclxqWIlLgx3F7ORId4KU6u_CTBpcY-hZ5e_B2NiPHv3MJ7PtLK6FdARZwu1oPuYHx9gqLrDu5rt4",
+      "name": "Toy-1",
+      "price": 30.53,
+    },
+  },
+  Object {
+    "op": "replace",
+    "path": "/items/0/name",
+    "value": "Toy-100",
+  },
+]
+`;
+
+exports[`can add a new items 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "image": "https://lh3.googleusercontent.com/TFuORPSuxYy8PQKFV2UBNHDr-aKclxqWIlLgx3F7ORId4KU6u_CTBpcY-hZ5e_B2NiPHv3MJ7PtLK6FdARZwu1oPuYHx9gqLrDu5rt4",
+      "name": "Toy-100",
+      "price": 30.53,
+    },
+  ],
+}
+`;
+
+exports[`can add a new items 2`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "image": "https://lh3.googleusercontent.com/TFuORPSuxYy8PQKFV2UBNHDr-aKclxqWIlLgx3F7ORId4KU6u_CTBpcY-hZ5e_B2NiPHv3MJ7PtLK6FdARZwu1oPuYHx9gqLrDu5rt4",
+        "name": "Toy-1",
+        "price": 30.53,
+      },
+    ],
+  },
+  Object {
+    "items": Array [
+      Object {
+        "image": "https://lh3.googleusercontent.com/TFuORPSuxYy8PQKFV2UBNHDr-aKclxqWIlLgx3F7ORId4KU6u_CTBpcY-hZ5e_B2NiPHv3MJ7PtLK6FdARZwu1oPuYHx9gqLrDu5rt4",
+        "name": "Toy-100",
+        "price": 30.53,
+      },
+    ],
+  },
+]
+`;
+
+exports[`can calculate totalPrice 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "image": "https://lh3.googleusercontent.com/TFuORPSuxYy8PQKFV2UBNHDr-aKclxqWIlLgx3F7ORId4KU6u_CTBpcY-hZ5e_B2NiPHv3MJ7PtLK6FdARZwu1oPuYHx9gqLrDu5rt4",
+      "name": "Toy-100",
+      "price": 30.53,
+    },
+    Object {
+      "image": "https://lh3.googleusercontent.com/TFuORPSuxYy8PQKFV2UBNHDr-aKclxqWIlLgx3F7ORId4KU6u_CTBpcY-hZ5e_B2NiPHv3MJ7PtLK6FdARZwu1oPuYHx9gqLrDu5rt4",
+      "name": "Toy-1",
+      "price": 30.53,
+    },
+  ],
+}
+`;
